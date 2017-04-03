@@ -11,3 +11,7 @@ void loop() {
  
   delay(500);
 }
+
+// For this one you'll want to to publish the raw output,
+// and use grafana to calculate the implied other values
+
