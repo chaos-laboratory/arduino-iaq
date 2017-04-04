@@ -6,7 +6,7 @@ void setup() {
 void loop() {
   float reading = analogRead(A0);
   reading = ((reading - 3) / 1024 * 500) ;
-  Serial.print("CO2 PPM: ");
+  Serial.print("CO PPM: ");
   Serial.println(reading);
  
   delay(500);
